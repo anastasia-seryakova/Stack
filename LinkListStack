@@ -1,0 +1,16 @@
+public class LinkListStack {
+
+    LinkList li = new LinkList();
+
+    public void push(String data) {
+        li.insertFirst(data);
+    }
+
+    public void pop() {
+            li.deleteFirst();
+    }
+
+    public void displayStack() {
+        li.displayList();
+    }
+}
