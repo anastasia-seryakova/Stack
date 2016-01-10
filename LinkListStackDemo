@@ -1,0 +1,17 @@
+public class LinkListStackDemo {
+
+    public static void main(String[] args) {
+        LinkListStack st = new LinkListStack();
+
+        st.push("It is a period of civil war.");
+        st.push("Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire.");
+        st.push("During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the DEATH STAR, an armored space station with enough power to destroy an entire planet.");
+        st.push("Pursued by the Empire's sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy....\"");
+        st.displayStack();
+        st.pop();
+	st.pop();
+	st.pop();
+        st.displayStack();
+
+    }
+}
